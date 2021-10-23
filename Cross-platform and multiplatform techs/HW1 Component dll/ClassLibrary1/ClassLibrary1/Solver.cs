@@ -54,13 +54,5 @@ namespace ClassLibrary1
                 Console.WriteLine($"{i}) \t a = {a.ToString("F" + 10)} ;\t b = {b.ToString("F" + 10)} ;\t x = {x.ToString("F" + 10)} ; \t f = {f.ToString("F" + 10)} ;");
             }
         }
-
-        static void Main(string[] args)
-        {
-            Newton();
-            Dichotomy();
-
-            Console.ReadKey();
-        }
     }
 }
