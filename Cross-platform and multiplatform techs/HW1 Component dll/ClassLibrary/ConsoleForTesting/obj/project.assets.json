@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Cross-platform and multiplatform techs\\HW1 Component dll\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
-      "projectName": "ClassLibrary1",
-      "projectPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Cross-platform and multiplatform techs\\HW1 Component dll\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
+      "projectUniqueName": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Cross-platform and multiplatform techs\\HW1 Component dll\\ClassLibrary\\ConsoleForTesting\\ConsoleForTesting.csproj",
+      "projectName": "ConsoleForTesting",
+      "projectPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Cross-platform and multiplatform techs\\HW1 Component dll\\ClassLibrary\\ConsoleForTesting\\ConsoleForTesting.csproj",
       "packagesPath": "C:\\Users\\maksy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Cross-platform and multiplatform techs\\HW1 Component dll\\ClassLibrary1\\ClassLibrary1\\obj\\",
+      "outputPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Cross-platform and multiplatform techs\\HW1 Component dll\\ClassLibrary\\ConsoleForTesting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maksy\\AppData\\Roaming\\NuGet\\NuGet.Config",
