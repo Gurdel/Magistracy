@@ -2,7 +2,7 @@
 
 namespace ClassLibrary1
 {
-    class Solver
+    public class Solver
     {
         public static void Help()
         {
@@ -119,7 +119,7 @@ Secant(double x_2, double x_1, double e, int template, double[] args)
             return F;
         }
 
-        static void Newton(double x, double e, int template, double[] args)
+        public static void Newton(double x, double e, int template, double[] args)
         {
             Console.WriteLine("\tNewton (tangent) method");
             if (args.Length < 3)
@@ -146,7 +146,7 @@ Secant(double x_2, double x_1, double e, int template, double[] args)
             Console.WriteLine("\n");
         }
 
-        static void Dichotomy(double a, double b, double e, int template, double[] args)
+        public static void Dichotomy(double a, double b, double e, int template, double[] args)
         {
             Console.WriteLine("\tDichotomy method");
             if (args.Length < 3)
@@ -181,7 +181,7 @@ Secant(double x_2, double x_1, double e, int template, double[] args)
             Console.WriteLine("\n");
         }
 
-        static void Secant(double x_2, double x_1, double e, int template, double[] args)
+        public static void Secant(double x_2, double x_1, double e, int template, double[] args)
         {
             Console.WriteLine("\tSecant (chord) method");
             if (args.Length < 3)

@@ -1,12 +1,3 @@
-C:\Users\maksy\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.deps.json
-C:\Users\maksy\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.dll
-C:\Users\maksy\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.pdb
-C:\Users\maksy\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.csprojAssemblyReference.cache
-C:\Users\maksy\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.AssemblyInfoInputs.cache
-C:\Users\maksy\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.AssemblyInfo.cs
-C:\Users\maksy\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.csproj.CoreCompileInputs.cache
-C:\Users\maksy\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.dll
-C:\Users\maksy\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.pdb
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\ClassLibrary1\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.deps.json
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\ClassLibrary1\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.dll
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\ClassLibrary1\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.pdb
