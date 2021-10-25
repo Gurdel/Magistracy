@@ -14,3 +14,4 @@ C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform te
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\ClassLibrary\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.csproj.CoreCompileInputs.cache
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\ClassLibrary\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.dll
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\ClassLibrary\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.pdb
+C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\ClassLibrary\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
