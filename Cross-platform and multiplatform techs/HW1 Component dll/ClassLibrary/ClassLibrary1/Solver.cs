@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.IO;
 
 namespace ClassLibrary1
 {
@@ -119,13 +121,13 @@ Secant(double x_2, double x_1, double e, int template, double[] args)
             return F;
         }
 
-        public static void Newton(double x, double e, int template, double[] args)
+        public static double[] Newton(double x, double e, int template, double[] args)
         {
             Console.WriteLine("\tNewton (tangent) method");
             if (args.Length < 3)
             {
                 Console.WriteLine("Not enough arguments for template");
-                return;
+                return new double[] { 0, 0, 0 };
             }
             FuncDelegate F = ApplyTemplate(template, args);
             FuncDelegate F_derivate = GetDerivate(template);
@@ -144,22 +146,23 @@ Secant(double x_2, double x_1, double e, int template, double[] args)
                 Console.WriteLine($"{i}) \t x = {x.ToString("F" + 10)}  \t f = {f.ToString("F" + 10)} ");
             }
             Console.WriteLine("\n");
+            return new double[] { i, x, f };
         }
 
-        public static void Dichotomy(double a, double b, double e, int template, double[] args)
+        public static double[] Dichotomy(double a, double b, double e, int template, double[] args)
         {
             Console.WriteLine("\tDichotomy method");
             if (args.Length < 3)
             {
                 Console.WriteLine("Not enough arguments for template");
-                return;
+                return new double[] { 0, 0, 0 };
             }
             FuncDelegate F = ApplyTemplate(template, args);
 
             if (F(a, args) * F(b, args) > 0)
             {
                 Console.WriteLine("Bad interval");
-                return;
+                return new double[] { 0, 0, 0 };
             }
 
             double x = (a + b) / 2;
@@ -179,15 +182,16 @@ Secant(double x_2, double x_1, double e, int template, double[] args)
                 Console.WriteLine($"{i}) \t a = {a.ToString("F" + 10)} \t b = {b.ToString("F" + 10)} \t x = {x.ToString("F" + 10)}  \t f = {f.ToString("F" + 10)} ");
             }
             Console.WriteLine("\n");
+            return new double[] { i, x, f };
         }
 
-        public static void Secant(double x_2, double x_1, double e, int template, double[] args)
+        public static double[] Secant(double x_2, double x_1, double e, int template, double[] args)
         {
             Console.WriteLine("\tSecant (chord) method");
             if (args.Length < 3)
             {
                 Console.WriteLine("Not enough arguments for template");
-                return;
+                return new double[] { 0, 0, 0 };
             }
             FuncDelegate F = ApplyTemplate(template, args);
 
@@ -206,7 +210,54 @@ Secant(double x_2, double x_1, double e, int template, double[] args)
                 x_1 = x;
             }
             Console.WriteLine("\n");
+            return new double[] { i, x, f };
         }
-    
+        public static void ProcessFiles(string input, string output)
+        {
+            Console.WriteLine($"Processing input file {input}");
+            try
+            {
+                StreamReader sr = new StreamReader(input);
+                StreamWriter sw = new StreamWriter(output);
+
+
+                string line = sr.ReadLine();
+                while (line != null)
+                {
+                    string[] a = line.Trim().Replace('.', ',').Split(' ');
+                    double[] res = { };
+                    string method = a[0];
+                    switch (method)
+                    {
+                        case "Newton":
+                            res = Newton(Double.Parse(a[1]), Double.Parse(a[2]), Int32.Parse(a[3]), new double[] { Double.Parse(a[4]), Double.Parse(a[5]), Double.Parse(a[6]) });
+                            break;
+                        case "Dichotomy":
+                            res = Dichotomy(Double.Parse(a[1]), Double.Parse(a[2]), Double.Parse(a[3]), Int32.Parse(a[4]), new double[] { Double.Parse(a[5]), Double.Parse(a[6]), Double.Parse(a[7]) });
+                            break;
+                        case "Secant":
+                            res = Secant(Double.Parse(a[1]), Double.Parse(a[2]), Double.Parse(a[3]), Int32.Parse(a[4]), new double[] { Double.Parse(a[5]), Double.Parse(a[6]), Double.Parse(a[7]) });
+                            break;
+                        default:
+                            sw.WriteLine($"Incorrect method {method}");
+                            break;
+                    }
+                    sw.WriteLine($"iteration: {res[0]}\tx = {res[1].ToString("N10", CultureInfo.InvariantCulture)}\tF(x) = {res[2].ToString("N10", CultureInfo.InvariantCulture)}\tmethod: {method}");
+                    line = sr.ReadLine();
+                }
+
+                sr.Close();
+                sw.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e.Message);
+            }
+            finally
+            {
+                Console.WriteLine($"Processing completed. The results are written to {output}");
+            }
+        }
+
     }
 }

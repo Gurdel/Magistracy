@@ -16,3 +16,5 @@ Solver.Dichotomy(-2, 2, 0.0001, 3, [2.0, 2.0, -9.0])
 Solver.Secant(0, 0.5, 0.0001, 3, [2.0, 2.0, -9.0])
 
 Solver.Help()
+
+Solver.ProcessFiles("C:\\Users\\maksy\\input.txt", "C:\\Users\\maksy\\output.txt")

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Cross-platform and multiplatform techs\\HW1 Component dll\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Cross-platform and multiplatform techs\\HW1 Component dll\\Csharp\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Cross-platform and multiplatform techs\\HW1 Component dll\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Cross-platform and multiplatform techs\\HW1 Component dll\\Csharp\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\maksy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Cross-platform and multiplatform techs\\HW1 Component dll\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Cross-platform and multiplatform techs\\HW1 Component dll\\Csharp\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maksy\\AppData\\Roaming\\NuGet\\NuGet.Config",
