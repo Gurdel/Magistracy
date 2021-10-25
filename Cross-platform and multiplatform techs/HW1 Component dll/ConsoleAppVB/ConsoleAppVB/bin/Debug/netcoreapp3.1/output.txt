@@ -1,0 +1,9 @@
+iteration: 3	x = -0.6071016657	F(x) = -0.0000000628	method: Newton
+iteration: 14	x = -0.6071166992	F(x) = -0.0000537399	method: Dichotomy
+iteration: 3	x = -0.6071041732	F(x) = -0.0000090159	method: Secant
+iteration: 4	x = 0.7863000215	F(x) = 0.0000032578	method: Newton
+iteration: 17	x = 0.7863006592	F(x) = 0.0000088166	method: Dichotomy
+iteration: 4	x = 0.7863019608	F(x) = 0.0000201640	method: Secant
+iteration: 13	x = 0.8395087419	F(x) = 0.0000152809	method: Newton
+iteration: 16	x = 0.8395080566	F(x) = -0.0000044015	method: Dichotomy
+iteration: 8	x = 0.8395078455	F(x) = -0.0000104651	method: Secant
