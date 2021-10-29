@@ -29,5 +29,4 @@ C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform te
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\Csharp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\Csharp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\Csharp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
-C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\Csharp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
-C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\Csharp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\Csharp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
