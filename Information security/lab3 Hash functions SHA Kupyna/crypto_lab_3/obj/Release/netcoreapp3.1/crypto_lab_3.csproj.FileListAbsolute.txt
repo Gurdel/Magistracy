@@ -1,0 +1,9 @@
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3\crypto_lab_3\bin\Release\netcoreapp3.1\crypto_lab_3.deps.json
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3\crypto_lab_3\bin\Release\netcoreapp3.1\crypto_lab_3.dll
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3\crypto_lab_3\bin\Release\netcoreapp3.1\crypto_lab_3.pdb
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3\crypto_lab_3\obj\Release\netcoreapp3.1\crypto_lab_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3\crypto_lab_3\obj\Release\netcoreapp3.1\crypto_lab_3.AssemblyInfoInputs.cache
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3\crypto_lab_3\obj\Release\netcoreapp3.1\crypto_lab_3.AssemblyInfo.cs
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3\crypto_lab_3\obj\Release\netcoreapp3.1\crypto_lab_3.csproj.CoreCompileInputs.cache
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3\crypto_lab_3\obj\Release\netcoreapp3.1\crypto_lab_3.dll
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3\crypto_lab_3\obj\Release\netcoreapp3.1\crypto_lab_3.pdb

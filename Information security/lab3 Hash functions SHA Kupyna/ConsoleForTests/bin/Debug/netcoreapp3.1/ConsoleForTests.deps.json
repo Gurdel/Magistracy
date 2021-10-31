@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleForTests/1.0.0": {
+        "dependencies": {
+          "crypto_lab_3": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleForTests.dll": {}
+        }
+      },
+      "crypto_lab_3/1.0.0": {
+        "runtime": {
+          "crypto_lab_3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleForTests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "crypto_lab_3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
