@@ -22,8 +22,6 @@ C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform te
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\VisualBasic\ConsoleAppVB\bin\Debug\netcoreapp3.1\ConsoleAppVB.pdb
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\VisualBasic\ConsoleAppVB\bin\Debug\netcoreapp3.1\ClassLibrary1.dll
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\VisualBasic\ConsoleAppVB\bin\Debug\netcoreapp3.1\ClassLibrary1.pdb
-C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\VisualBasic\ConsoleAppVB\obj\Debug\netcoreapp3.1\ConsoleAppVB.vbproj.AssemblyReference.cache
-C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\VisualBasic\ConsoleAppVB\obj\Debug\netcoreapp3.1\ConsoleAppVB.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\VisualBasic\ConsoleAppVB\obj\Debug\netcoreapp3.1\ConsoleAppVB.AssemblyInfoInputs.cache
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\VisualBasic\ConsoleAppVB\obj\Debug\netcoreapp3.1\ConsoleAppVB.AssemblyInfo.vb
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\VisualBasic\ConsoleAppVB\obj\Debug\netcoreapp3.1\ConsoleAppVB.vbproj.CoreCompileInputs.cache
@@ -31,3 +29,4 @@ C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform te
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\VisualBasic\ConsoleAppVB\obj\Debug\netcoreapp3.1\ConsoleAppVB.dll
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\VisualBasic\ConsoleAppVB\obj\Debug\netcoreapp3.1\ConsoleAppVB.pdb
 C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\VisualBasic\ConsoleAppVB\obj\Debug\netcoreapp3.1\ConsoleAppVB.genruntimeconfig.cache
+C:\Users\maksy\Documents\projects\Magistracy\Cross-platform and multiplatform techs\HW1 Component dll\VisualBasic\ConsoleAppVB\obj\Debug\netcoreapp3.1\ConsoleAppVB.vbprojAssemblyReference.cache
