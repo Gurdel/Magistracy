@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Information security\\lab3\\ConsoleForTests\\ConsoleForTests.csproj",
+      "projectUniqueName": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Information security\\lab3 Hash functions SHA Kupyna\\ConsoleForTests\\ConsoleForTests.csproj",
       "projectName": "ConsoleForTests",
-      "projectPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Information security\\lab3\\ConsoleForTests\\ConsoleForTests.csproj",
+      "projectPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Information security\\lab3 Hash functions SHA Kupyna\\ConsoleForTests\\ConsoleForTests.csproj",
       "packagesPath": "C:\\Users\\maksy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Information security\\lab3\\ConsoleForTests\\obj\\",
+      "outputPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Information security\\lab3 Hash functions SHA Kupyna\\ConsoleForTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Information security\\lab3\\crypto_lab_3\\crypto_lab_3.csproj": {
-              "projectPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Information security\\lab3\\crypto_lab_3\\crypto_lab_3.csproj"
+            "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Information security\\lab3 Hash functions SHA Kupyna\\crypto_lab_3\\crypto_lab_3.csproj": {
+              "projectPath": "C:\\Users\\maksy\\Documents\\projects\\Magistracy\\Information security\\lab3 Hash functions SHA Kupyna\\crypto_lab_3\\crypto_lab_3.csproj"
             }
           }
         }
