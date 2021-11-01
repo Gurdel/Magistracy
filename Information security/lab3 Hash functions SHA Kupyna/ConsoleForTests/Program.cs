@@ -13,7 +13,7 @@ namespace ConsoleForTests
         {
             byte[] inp = new byte[nonce];
             string hash;
-            //HashSet<string> foundHashes = new HashSet<string>();
+            HashSet<string> foundHashes = new HashSet<string>();
             ulong iterationsCounter = 0;
 
             Stopwatch stopwatch = new Stopwatch();
@@ -25,8 +25,8 @@ namespace ConsoleForTests
                 iterationsCounter++;
                 RandomizeByteArr(inp, random);
 
-                hash = Encoding.ASCII.GetString(hashFunc.CalcHash(inp));
-                //foundHashes.Add(hash);
+                hash = BitConverter.ToString(hashFunc.CalcHash(inp)).Replace("-", "");
+                foundHashes.Add(hash);
 
                 if (hash.StartsWith(proof))
                     break;
@@ -60,11 +60,17 @@ namespace ConsoleForTests
 
 
                 Console.WriteLine("SHA256");
-                FindCollision(sha256Func, nonce, proof, random);
+                for (int j = 0; j < 5; ++j)
+                {
+                    FindCollision(sha256Func, nonce, proof, random);
+                }
                 Console.WriteLine();
 
                 Console.WriteLine("Kupyna");
-                FindCollision(kupyna, nonce, proof, random);
+                for (int j = 0; j < 5; ++j)
+                {
+                    FindCollision(kupyna, nonce, proof, random);
+                }
                 Console.WriteLine();
             }
         }

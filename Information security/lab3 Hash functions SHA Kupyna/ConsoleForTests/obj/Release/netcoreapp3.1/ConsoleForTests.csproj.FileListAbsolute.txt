@@ -28,7 +28,6 @@ C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3 Hash func
 C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3 Hash functions SHA Kupyna\ConsoleForTests\obj\Release\netcoreapp3.1\ConsoleForTests.AssemblyInfoInputs.cache
 C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3 Hash functions SHA Kupyna\ConsoleForTests\obj\Release\netcoreapp3.1\ConsoleForTests.AssemblyInfo.cs
 C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3 Hash functions SHA Kupyna\ConsoleForTests\obj\Release\netcoreapp3.1\ConsoleForTests.csproj.CoreCompileInputs.cache
-C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3 Hash functions SHA Kupyna\ConsoleForTests\obj\Release\netcoreapp3.1\ConsoleForTests.csproj.CopyComplete
 C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3 Hash functions SHA Kupyna\ConsoleForTests\obj\Release\netcoreapp3.1\ConsoleForTests.dll
 C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3 Hash functions SHA Kupyna\ConsoleForTests\obj\Release\netcoreapp3.1\ConsoleForTests.pdb
 C:\Users\maksy\Documents\projects\Magistracy\Information security\lab3 Hash functions SHA Kupyna\ConsoleForTests\obj\Release\netcoreapp3.1\ConsoleForTests.genruntimeconfig.cache
