@@ -48,32 +48,13 @@ def one_vs_all_cols(s):
 #Theta transpose x Feature Vector
 def ThetaTX(Q,X):
     det = 0.0
+    sum = np.sum(np.array(Q) * np.array(X))
     for i in range(len(Q)):
         det += X[i]*Q[i]
     return det
 
-#cost for negative class (classs = 0)
-def LinearSVM_cost0(z):
-	if(z < -1): #Ensuring margin
-		return 0
-	return z + 1
-
-#cost for positive class (classs = 1)
-def LinearSVM_cost1(z):
-	if(z > 1): #Ensuring margin
-		return 0
-	return -z + 1
-
 def sigmoid(z):
 	return 1.0/(1.0 + exp(-z))
-
-#SVM cost
-def cost(theta,c,x,y):
-	cost = 0.0
-	for i in range(len(x)):
-		z = ThetaTX(theta[c], x[i])
-		cost += y[i]*LinearSVM_cost1(z) + (1 - y[i])*LinearSVM_cost0(z)
-	return cost
 
 #Gradient Descent on the weights/parameters
 def gradDescent(theta, c, x, y, learning_rate):
@@ -87,7 +68,6 @@ def gradDescent(theta, c, x, y, learning_rate):
 #predictions using trained weights
 def predict(data, theta):
 	predictions = []
-	count = 1
 	for row in data:
 		hypothesis = []
 		multiclass_ans = [0]*len(theta)
@@ -97,7 +77,6 @@ def predict(data, theta):
 		index = hypothesis.index(max(hypothesis))
 		multiclass_ans[index] = 1
 		predictions.append(multiclass_ans)
-		count+=1
 	return predictions
 
 def accuracy(predicted, actual):
