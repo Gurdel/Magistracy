@@ -4,7 +4,6 @@ Logistic Regression classifier class
 from __future__ import division
 import numpy as np
 import scipy
-import Loaders
 import math
 from scipy.optimize import fmin_bfgs
 # import bigfloat
@@ -48,7 +47,6 @@ class LogisticRegression:
 
         labels = labels.reshape((len(labels), 1))
         # now labels variable contains labels starting from 0 to (num_classes -1)
-        # print unique_classes
         num_classes = len(unique_classes)
 
         Init_Thetas = []  # to hold initial values of theta

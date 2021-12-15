@@ -12,6 +12,7 @@ namespace ClassLibrary1
         public static char cipher(char ch, int key)
         {
             key %= dictLength;
+            //return (char)(ch + key);
 
             if (!allSymbols.Contains(ch))
             {
