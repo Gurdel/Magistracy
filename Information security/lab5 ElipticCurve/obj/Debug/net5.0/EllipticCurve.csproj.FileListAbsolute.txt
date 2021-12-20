@@ -1,0 +1,16 @@
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\bin\Debug\net5.0\EllipticCurve.exe
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\bin\Debug\net5.0\EllipticCurve.deps.json
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\bin\Debug\net5.0\EllipticCurve.runtimeconfig.json
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\bin\Debug\net5.0\EllipticCurve.runtimeconfig.dev.json
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\bin\Debug\net5.0\EllipticCurve.dll
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\bin\Debug\net5.0\ref\EllipticCurve.dll
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\bin\Debug\net5.0\EllipticCurve.pdb
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\obj\Debug\net5.0\EllipticCurve.csprojAssemblyReference.cache
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\obj\Debug\net5.0\EllipticCurve.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\obj\Debug\net5.0\EllipticCurve.AssemblyInfoInputs.cache
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\obj\Debug\net5.0\EllipticCurve.AssemblyInfo.cs
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\obj\Debug\net5.0\EllipticCurve.csproj.CoreCompileInputs.cache
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\obj\Debug\net5.0\EllipticCurve.dll
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\obj\Debug\net5.0\ref\EllipticCurve.dll
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\obj\Debug\net5.0\EllipticCurve.pdb
+C:\Users\maksy\Documents\projects\Magistracy\Information security\lab5 ElipticCurve\obj\Debug\net5.0\EllipticCurve.genruntimeconfig.cache
